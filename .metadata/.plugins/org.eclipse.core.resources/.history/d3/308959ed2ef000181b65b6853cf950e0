@@ -1,0 +1,15 @@
+package Funcionarios;
+
+public class Ator {
+	
+	private ArrayList<Cena> cenas;
+	private ArrayList<Producao> producoes;
+	
+
+	@Override
+	public double calculaSalario() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

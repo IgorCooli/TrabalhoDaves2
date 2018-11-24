@@ -1,0 +1,7 @@
+package TiposProducao;
+
+public class Show extends Producao{
+	public Show() {
+		super();
+	}
+}
