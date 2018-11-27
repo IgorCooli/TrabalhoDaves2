@@ -1,6 +1,6 @@
 package Funcionarios;
 
-public class FuncionarioApoio extends Funcionario{
+public abstract class FuncionarioApoio extends Funcionario{
 	
 	private int tempoCasa;
 

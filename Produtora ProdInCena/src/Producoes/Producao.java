@@ -130,5 +130,13 @@ public class Producao {
 		return receita;
 	}
 	
+	public double fohaPagamento() {
+		double folha = 0;
+		for(int i=0 ; i<funcionarios.size() ; i++) {
+			folha += funcionarios.get(i).getSalario();
+		}
+		return folha;
+	}
+	
 	
 }
