@@ -16,6 +16,6 @@ public class Main {
 		ma.setTempoCasa(3);
 		ma.calculaSalario();
 		System.out.println(ma.getSalario());
-		System.out.println(f.fohaPagamento());
+		System.out.println(f.folhaPagamento());
 	}
 }
