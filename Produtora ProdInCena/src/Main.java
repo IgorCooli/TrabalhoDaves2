@@ -1,16 +1,15 @@
-import Funcionarios.CameraMan;
 import Funcionarios.Funcionario;
-import Investidores.EmpresaPrivada;
-import Investidores.Investidor;
+import Funcionarios.Maquiador;
 import Producoes.Filme;
 import Producoes.Producao;
 
 public class Main {
 	public static void main(String args[]) {
 		Producao f = new Filme();
-		Funcionario cm = new CameraMan();
-		cm.setTempoCasa(4);
-		System.out.println(cm.getSalario());
-		
+		Maquiador m = new Maquiador();
+		f.addFuncionario(m);
+		m.setTempoCasa(5);
+		m.calculaSalario();
+		System.out.println(m.getSalario());
 	}
 }

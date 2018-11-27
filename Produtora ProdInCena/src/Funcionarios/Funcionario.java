@@ -1,28 +1,21 @@
 package Funcionarios;
 
-public class Funcionario {
-
+public abstract class Funcionario {
 	private String nome;
-	private String cpf;
-	private int tempoCasa;
-	private double salario;
+	private int idade;
+	protected double salario;
 	
-	public Funcionario () {
-		
-	}
-	
-	
+	public Funcionario() {}
+
 	
 	public double getSalario() {
 		return salario;
 	}
 
 
-
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-
 
 
 	public String getNome() {
@@ -33,22 +26,14 @@ public class Funcionario {
 		this.nome = nome;
 	}
 
-	public String getCpf() {
-		return cpf;
+	public int getIdade() {
+		return idade;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-
-	public int getTempoCasa() {
-		return tempoCasa;
-	}
-
-	public void setTempoCasa(int tempoCasa) {
-		this.tempoCasa = tempoCasa;
+	public void setIdade(int idade) {
+		this.idade = idade;
 	}
 	
-	
+	public abstract void calculaSalario();
 	
 }

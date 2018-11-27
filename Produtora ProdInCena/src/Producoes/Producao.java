@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import Cenas.Fita;
 import Despesas.Despesa;
 import Funcionarios.Funcionario;
-import Funcionarios.FuncionarioApoio;
 import Investidores.Investidor;
 
 public class Producao {
