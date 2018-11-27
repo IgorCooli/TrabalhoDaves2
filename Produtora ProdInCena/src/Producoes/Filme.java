@@ -1,5 +1,5 @@
 package Producoes;
 
-public class Filme {
+public class Filme extends Producao{
 
 }

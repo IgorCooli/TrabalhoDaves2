@@ -5,10 +5,25 @@ public class Funcionario {
 	private String nome;
 	private String cpf;
 	private int tempoCasa;
+	private double salario;
 	
 	public Funcionario () {
 		
 	}
+	
+	
+	
+	public double getSalario() {
+		return salario;
+	}
+
+
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+
 
 	public String getNome() {
 		return nome;

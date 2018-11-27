@@ -1,5 +1,5 @@
 package Investidores;
 
-public class EmpresaPrivada {
+public class EmpresaPrivada extends Investidor{
 
 }
