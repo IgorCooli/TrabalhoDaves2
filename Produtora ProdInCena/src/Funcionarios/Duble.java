@@ -14,9 +14,11 @@ public class Duble extends Funcionario{
 	}
 
 	@Override
-	public void calculaSalario() {
+	public double calculaSalario() {
 		
-		setSalario(cenas.size()*valorCena);
+		double salario = 0;
+		salario = cenas.size()*valorCena;
+		return salario;
 		
 	}
 

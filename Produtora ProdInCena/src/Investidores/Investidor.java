@@ -1,9 +1,10 @@
 package Investidores;
 
-public class Investidor {
+public class Investidor implements IPatrocinio{
 	private String nome;
 	private double quantia;
 	private String cnpj;
+	private OpcoesInvestidor tipo;
 	
 	public Investidor() {}
 
@@ -30,6 +31,22 @@ public class Investidor {
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
+
+	@Override
+	public double valorPatrocinio() {
+		double pat = getQuantia();
+		return pat;
+	}
+
+	public OpcoesInvestidor getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(OpcoesInvestidor tipo) {
+		this.tipo = tipo;
+	}
+	
+	
 	
 	
 }

@@ -3,19 +3,9 @@ package Funcionarios;
 public abstract class Funcionario {
 	private String nome;
 	private int idade;
-	protected double salario;
+	
 	
 	public Funcionario() {}
-
-	
-	public double getSalario() {
-		return salario;
-	}
-
-
-	public void setSalario(double salario) {
-		this.salario = salario;
-	}
 
 
 	public String getNome() {
@@ -34,6 +24,6 @@ public abstract class Funcionario {
 		this.idade = idade;
 	}
 	
-	public abstract void calculaSalario();
+	public abstract double calculaSalario();
 	
 }

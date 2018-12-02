@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import Producoes.Producao;
 
 public class ProdInCena {
+	
 	private ArrayList<Producao> producoes;
 
 	public ProdInCena() {
