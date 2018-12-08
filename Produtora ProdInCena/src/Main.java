@@ -276,7 +276,7 @@ public class Main {
 							}
 						}
 					}
-					if(opt == 2) {
+					else if(opt == 2) {
 						String nome = "";
 						for(int i = 0 ; i<pic.getProducoes().get(c).getFuncionarios().size() ; i++) {
 							if(pic.getProducoes().get(c).getFuncionarios().get(i) instanceof Duble) {
